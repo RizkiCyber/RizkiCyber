@@ -3373,7 +3373,7 @@ end)
 spawn(function()
 while wait() do
 local truonghopdacbiet = 675056229
-local truonghopdacbiet2 = "lancar50"
+local truonghopdacbiet2 = "quocvietht456"
 if game.Players.LocalPlayer.UserId == truonghopdacbiet or game.Players.LocalPlayer.Name == truonghopdacbiet2 then
     if act6 == true or act5 == true or afksnail == true or killvici == true or Sparkles == true or tornado == true or dispenser == true or killtunell == true or killcoconut == true or item == true or tpwindy == true or Windy == true then
         game.Players.LocalPlayer:Kick("Xai xai cdmm")
