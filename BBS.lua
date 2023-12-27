@@ -3391,7 +3391,7 @@ Close.Text ="+"
 local test = "C"
 local tweenservice = game:GetService("TweenService")
 local plr = game.Players.LocalPlayer
-local info = TweenInfo.new(5) -- change to how long it takes to get to the item (in seconds)
+local info = TweenInfo.new(1,Enum.EasingStyle.Linear) -- change to how long it takes to get to the item (in seconds)
 local item = {}
 while afksnail do
 wait(1)    
