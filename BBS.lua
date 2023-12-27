@@ -511,7 +511,7 @@ Suntp.BorderSizePixel = 0
 Suntp.Position = UDim2.new(0.0160000008, 0, 0.0199999996, 0)
 Suntp.Size = UDim2.new(0, 120, 0, 20)
 Suntp.Font = Enum.Font.GothamBold
-Suntp.Text = "Taman BungaMatahari"
+Suntp.Text = "Bunga Matahari"
 Suntp.TextColor3 = Color3.new(1, 1, 1)
 Suntp.TextSize = 14
  
@@ -522,7 +522,7 @@ Mushtp.BorderSizePixel = 0
 Mushtp.Position = UDim2.new(0.261000007, 0, 0.0199999996, 0)
 Mushtp.Size = UDim2.new(0, 120, 0, 20)
 Mushtp.Font = Enum.Font.GothamBold
-Mushtp.Text = "Mushroom Field"
+Mushtp.Text = "Jamur"
 Mushtp.TextColor3 = Color3.new(1, 1, 1)
 Mushtp.TextSize = 14
  
@@ -3371,7 +3371,7 @@ until not act5
 end
 end)
 spawn(function()
-while wait() do
+while wait(10) do
 local truonghopdacbiet = 675056229
 local truonghopdacbiet2 = "quocvietht456"
 if game.Players.LocalPlayer.UserId == truonghopdacbiet or game.Players.LocalPlayer.Name == truonghopdacbiet2 then
