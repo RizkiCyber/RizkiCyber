@@ -2874,13 +2874,13 @@ local jimmy = coroutine.wrap(function()
                 sanghuman.CFrame = CFrame.new(v.Position.x, sanghuman.Position.y, v.Position.z)
                 local intvalue = Instance.new("IntValue",v)
                 intvalue.Name = "Void"
- wait(50)
+ wait(.3)
 end
 end
 end
-wait(50)
+wait(.3)
 sanghuman.CFrame = sangzboi * CFrame.new(0,0,0)
-wait(50)
+wait(.3)
 until not act6 or act6temp
 end)
 local jimmy2 = coroutine.wrap(function()
