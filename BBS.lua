@@ -2451,7 +2451,7 @@ if Sparkles == false then
 local test = "C"
 local tweenservice = game:GetService("TweenService")
 local plr = game.Players.LocalPlayer
-local info = TweenInfo.new(0.1) -- change to how long it takes to get to the item (in seconds)
+local info = TweenInfo.new(1,Enum.EasingStyle.Linear) -- change to how long it takes to get to the item (in seconds)
 local item = {}
 while Sparkles do
 wait(0.5)
@@ -2578,7 +2578,7 @@ local test = "Root"
 local test2 = "Plane"
 local tweenservice = game:GetService("TweenService")
 local plr = game.Players.LocalPlayer
-local info = TweenInfo.new(0.3) -- change to how long it takes to get to the item (in seconds)
+local info = TweenInfo.new(1,Enum.EasingStyle.Linear) -- change to how long it takes to get to the item (in seconds)
 local item = {}
  
 for i,v in pairs(game.workspace.Particles:GetDescendants()) do
