@@ -2870,8 +2870,8 @@ local jimmy = coroutine.wrap(function()
            
         for k,v in pairs(workspace.Collectibles:GetChildren()) do
             if tostring(v) == tostring(game.Players.LocalPlayer.Name) or tostring(v) == "C" then
-                        if (v.Position-sanghuman.Position).magnitude <= 60 then
-               
+                        if (v.Position-sanghuman.Position).magnitude  then
+                sanghuman.CFrame = CFrame.new(v.Position.x, sanghuman.Position.y, v.Position.z)
                 local intvalue = Instance.new("IntValue",v)
                 intvalue.Name = "Void"
  wait(.05,Enum.EasingStyle.Linear)
