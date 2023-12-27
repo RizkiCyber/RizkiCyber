@@ -2451,7 +2451,7 @@ if Sparkles == false then
 local test = "C"
 local tweenservice = game:GetService("TweenService")
 local plr = game.Players.LocalPlayer
-local info = TweenInfo.new(0.1) -- change to how long it takes to get to the item (in seconds)
+local info = TweenInfo.new(5) -- change to how long it takes to get to the item (in seconds)
 local item = {}
 while Sparkles do
 wait(0.5)
@@ -3371,7 +3371,7 @@ until not act5
 end
 end)
 spawn(function()
-while wait(10) do
+while wait() do
 local truonghopdacbiet = 675056229
 local truonghopdacbiet2 = "quocvietht456"
 if game.Players.LocalPlayer.UserId == truonghopdacbiet or game.Players.LocalPlayer.Name == truonghopdacbiet2 then
