@@ -511,7 +511,7 @@ Suntp.BorderSizePixel = 0
 Suntp.Position = UDim2.new(0.0160000008, 0, 0.0199999996, 0)
 Suntp.Size = UDim2.new(0, 120, 0, 20)
 Suntp.Font = Enum.Font.GothamBold
-Suntp.Text = "Bunga Matahari"
+Suntp.Text = "Taman BungaMatahari"
 Suntp.TextColor3 = Color3.new(1, 1, 1)
 Suntp.TextSize = 14
  
@@ -522,7 +522,7 @@ Mushtp.BorderSizePixel = 0
 Mushtp.Position = UDim2.new(0.261000007, 0, 0.0199999996, 0)
 Mushtp.Size = UDim2.new(0, 120, 0, 20)
 Mushtp.Font = Enum.Font.GothamBold
-Mushtp.Text = "Jamur"
+Mushtp.Text = "Mushroom Field"
 Mushtp.TextColor3 = Color3.new(1, 1, 1)
 Mushtp.TextSize = 14
  
@@ -1516,7 +1516,7 @@ for d=1,10 do wait(.3)
       repss = repss + 1
 end
  
-if game.PlaceId == 1537690962 or game.PlaceId == 4079902982 then
+if game.PlaceId == 3719762683 or game.PlaceId == 4079902982 then
 Loadingtext.Text = "Loading UI: Success"
 if syn then
 LoadingFrame:TweenPosition(UDim2.new(0.410933673, 0, -0.7, 0))
@@ -2451,7 +2451,7 @@ if Sparkles == false then
 local test = "C"
 local tweenservice = game:GetService("TweenService")
 local plr = game.Players.LocalPlayer
-local info = TweenInfo.new(1,Enum.EasingStyle.Linear) -- change to how long it takes to get to the item (in seconds)
+local info = TweenInfo.new(0.1) -- change to how long it takes to get to the item (in seconds)
 local item = {}
 while Sparkles do
 wait(0.5)
@@ -2578,7 +2578,7 @@ local test = "Root"
 local test2 = "Plane"
 local tweenservice = game:GetService("TweenService")
 local plr = game.Players.LocalPlayer
-local info = TweenInfo.new(1,Enum.EasingStyle.Linear) -- change to how long it takes to get to the item (in seconds)
+local info = TweenInfo.new(0.3) -- change to how long it takes to get to the item (in seconds)
 local item = {}
  
 for i,v in pairs(game.workspace.Particles:GetDescendants()) do
@@ -2874,13 +2874,13 @@ local jimmy = coroutine.wrap(function()
                 sanghuman.CFrame = CFrame.new(v.Position.x, sanghuman.Position.y, v.Position.z)
                 local intvalue = Instance.new("IntValue",v)
                 intvalue.Name = "Void"
- wait(.05,Enum.EasingStyle.Linear)
+ wait(.05)
 end
 end
 end
-wait(.05,Enum.EasingStyle.Linear)
+wait(.05)
 sanghuman.CFrame = sangzboi * CFrame.new(0,0,0)
-wait(.05,Enum.EasingStyle.Linear)
+wait(.05)
 until not act6 or act6temp
 end)
 local jimmy2 = coroutine.wrap(function()
@@ -3371,7 +3371,7 @@ until not act5
 end
 end)
 spawn(function()
-while wait() do
+while wait(3) do
 local truonghopdacbiet = 675056229
 local truonghopdacbiet2 = "quocvietht456"
 if game.Players.LocalPlayer.UserId == truonghopdacbiet or game.Players.LocalPlayer.Name == truonghopdacbiet2 then
@@ -3391,7 +3391,7 @@ Close.Text ="+"
 local test = "C"
 local tweenservice = game:GetService("TweenService")
 local plr = game.Players.LocalPlayer
-local info = TweenInfo.new(1,Enum.EasingStyle.Linear) -- change to how long it takes to get to the item (in seconds)
+local info = TweenInfo.new(0.1) -- change to how long it takes to get to the item (in seconds)
 local item = {}
 while afksnail do
 wait(1)    
