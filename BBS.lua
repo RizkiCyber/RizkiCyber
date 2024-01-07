@@ -2425,7 +2425,7 @@ Autodig.MouseButton1Down:connect(function()
       while AutoDig do
             wait(0.5)
            
- for _,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+ for _,v in pairs(game.ReplicatedStorage.LocalPlayer.Character:GetChildren()) do
       if v:IsA("Accessory") then
             v.ToolCollect:FireServer()
      
