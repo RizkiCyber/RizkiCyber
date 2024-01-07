@@ -2427,7 +2427,7 @@ Autodig.MouseButton1Down:connect(function()
            
  for _,v in pairs(game.ReplicatedStorage.LocalPlayer.Character:GetChildren()) do
       if v:IsA("Accessory") then
-            v.ToolCollect:FireServer()
+            v.Events.ToolCollect:FireServer()
      
       end
             end
