@@ -1,3 +1,4 @@
+--Edited by BeeswarmMVP sub to my yt
 for _,v in pairs(game.workspace.Collectibles:GetChildren()) do
 if string.find(v.Name,"") then
 v:Destroy()
@@ -231,7 +232,7 @@ DiscordlinkTest.BackgroundTransparency = 1
 DiscordlinkTest.Position = UDim2.new(0, 0, 0.601092875, 0)
 DiscordlinkTest.Size = UDim2.new(0.998024881, 0, 0.146612123, 0)
 DiscordlinkTest.Font = Enum.Font.GothamBold
-DiscordlinkTest.Text = "Link: https://discord.gg/eZtDYMTJ"
+DiscordlinkTest.Text = "Link: https://discord.gg/yXNjfMa"
 DiscordlinkTest.TextColor3 = Color3.new(1, 1, 1)
 DiscordlinkTest.TextSize = 17
  
@@ -269,7 +270,7 @@ SunflowerButton.BorderSizePixel = 0
 SunflowerButton.Position = UDim2.new(0.108427808, 0, 0.0228219759, 0)
 SunflowerButton.Size = UDim2.new(0, 160, 0, 20)
 SunflowerButton.Font = Enum.Font.GothamBold
-SunflowerButton.Text = "Taman BungaMatahari"
+SunflowerButton.Text = "Sunflower Field"
 SunflowerButton.TextColor3 = Color3.new(1, 1, 1)
 SunflowerButton.TextSize = 14
  
@@ -511,7 +512,7 @@ Suntp.BorderSizePixel = 0
 Suntp.Position = UDim2.new(0.0160000008, 0, 0.0199999996, 0)
 Suntp.Size = UDim2.new(0, 120, 0, 20)
 Suntp.Font = Enum.Font.GothamBold
-Suntp.Text = "Taman BungaMatahari"
+Suntp.Text = "Sunflower Field"
 Suntp.TextColor3 = Color3.new(1, 1, 1)
 Suntp.TextSize = 14
  
@@ -1399,7 +1400,7 @@ Createtitle.BackgroundColor3 = Color3.new(1, 1, 1)
 Createtitle.BackgroundTransparency = 1
 Createtitle.Size = UDim2.new(0, 108, 0, 25)
 Createtitle.Font = Enum.Font.GothamBlack
-Createtitle.Text = "Rizki Cyber"
+Createtitle.Text = "Dark Cyber"
 Createtitle.TextColor3 = Color3.new(1, 1, 1)
 Createtitle.TextSize = 14
  
@@ -1454,7 +1455,7 @@ Createtitle2.BackgroundColor3 = Color3.new(1, 1, 1)
 Createtitle2.BackgroundTransparency = 1
 Createtitle2.Size = UDim2.new(0, 108, 0, 25)
 Createtitle2.Font = Enum.Font.GothamBlack
-Createtitle2.Text = "Rizki Cyber"
+Createtitle2.Text = "Dark Cyber"
 Createtitle2.TextColor3 = Color3.new(1, 1, 1)
 Createtitle2.TextSize = 14
  
@@ -1478,7 +1479,7 @@ Welcome.BackgroundTransparency = 1
 Welcome.Position = UDim2.new(0, 0, 0.313432842, 0)
 Welcome.Size = UDim2.new(0, 266, 0, 50)
 Welcome.Font = Enum.Font.GothamBold
-Welcome.Text = "SELAMAT DATANG MY GUI"
+Welcome.Text = "WELCOME TO MY GUI SYNAPSHIT USER"
 Welcome.TextColor3 = Color3.new(1, 1, 1)
 Welcome.TextSize = 25
 Welcome.TextWrapped = true
@@ -1516,7 +1517,7 @@ for d=1,10 do wait(.3)
       repss = repss + 1
 end
  
-if game.PlaceId == 3719762683 or game.PlaceId == 4079902982 then
+if game.PlaceId == 1537690962 or game.PlaceId == 4079902982 then
 Loadingtext.Text = "Loading UI: Success"
 if syn then
 LoadingFrame:TweenPosition(UDim2.new(0.410933673, 0, -0.7, 0))
@@ -1538,7 +1539,7 @@ end
 end
  
 Copylinkdiscord.MouseButton1Down:Connect(function()
-setclipboard("discord.gg/eZtDYMTJ")
+setclipboard("discord.gg/GT6uXF2")
 end)
  
 HomeButton.MouseButton1Down:Connect(function()
@@ -2425,10 +2426,7 @@ Autodig.MouseButton1Down:connect(function()
       while AutoDig do
             wait(0.5)
            
- for _,v in pairs(game.ReplicatedStorage.LocalPlayer.Character:GetChildren()) do
-      if v:IsA("Accessory") then
-            v.Events.ToolCollect:FireServer()
-     
+ for _,v in pairs(game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ToolCollect"):FireServer()
       end
             end
             end
@@ -3371,7 +3369,7 @@ until not act5
 end
 end)
 spawn(function()
-while wait(3) do
+while wait() do
 local truonghopdacbiet = 675056229
 local truonghopdacbiet2 = "quocvietht456"
 if game.Players.LocalPlayer.UserId == truonghopdacbiet or game.Players.LocalPlayer.Name == truonghopdacbiet2 then
